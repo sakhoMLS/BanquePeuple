@@ -1,0 +1,253 @@
+.nav-wrapper{
+    background-color: #00b0ff;
+    height: 60px;
+    margin-top: 5px;
+
+}
+
+body{
+
+}
+form[id="formConnex"]{
+    width: 50%;
+    margin-left: 25%;
+}
+.right{
+    margin-top: 5px;
+    margin-left: 30px;
+    font-family: Algerian;
+
+}
+.right li{
+    height: 50px;
+}
+.right li a{
+    color: white;
+    font-size: 18px;
+}
+.right li a:hover{
+    color: black;
+    font-size: 18px;
+}
+.navbar-right{
+    margin-left: 70px;
+    margin-top: 0px;
+}
+.btntopBar{
+    height: 48px;
+    width: 150px;
+    font-size: 16px;
+    font-family: century;
+    border: 2px solid white;
+}
+.hauteurLi{
+    height: 50px;
+}
+.menu{
+    font-family: 'BenchNine', sans-serif;
+    font-size: 10px;
+}
+.divConnex{
+    background: darkgrey;
+    width: 350px;
+    height: 500px;
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 30px;
+    border-radius: 40px;
+    background: rgba(100, 0, 0, 0.1) /* Green background with 30% opacity */;
+}
+
+.user{
+    margin-top: 60px;
+    width: 800px;
+    text-align: center;
+    margin-left: 150px;
+
+}
+
+.bloc{
+    height: 450px;
+    border: 1px solid whitesmoke;
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.2) /* Green background with 30% opacity */;
+
+}
+
+.btnEnregistrer{
+    height: 50px;
+    width: 150px;
+    text-align: right;
+    margin-left: 600px;
+}
+
+.btnValider{
+    background-color: darkgrey;
+    width: 200px;
+}
+.btnValider:hover{
+    background-color: green;
+    color: white;
+    text-align: center;
+    font-size: 22px;
+}
+
+
+.thCompte{
+    background-color: cyan;
+    font-size: 18px;
+    font-family: century;
+    text-align: center;
+    color: black;
+    padding-left: 20px;
+}
+
+.tableCpte{
+    background: rgba(0,0,0,0.2);
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+.tableCpte tr:hover{
+    color: blue;
+    font-size: 18px;
+}
+
+.tableOpe{
+    background: rgba(0,0,0,0.2);
+    color: white;
+    text-align: center;
+
+}
+
+.thOpe{
+    background-color: white;
+    color: black;
+    font-family: century;
+    padding-left: 20px;
+}
+
+.tableOpe tr:hover{
+    color: blue;
+
+}
+
+.Liste{
+    font-size: 30px;
+    font-family: Algerian;
+    text-align: center;
+}
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.pagination a {
+    border: 1px solid #ddd; /* Gray */
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+.pagination a {
+    margin: 0 4px; /* 0 is for top and bottom. Feel free to change it */
+}
+
+.double {
+    text-shadow: 2px 2px 0 white,
+    4px 4px 0 black;
+}
+
+.td{
+    text-align: right;
+    color: darkblue;
+}
+.td1{
+    text-align: right;
+}
+.divN{
+    margin-top: 50px;
+
+}
+
+.h4{
+    text-align: center;
+    color: darkblue;
+    padding-bottom: 30px;
+
+}
+
+.aj{
+    text-align: center;
+}
+
+.divD{
+    margin-top: 50px;
+    text-align: left;
+    height: 200px;
+    width: 500px;
+    background-color: #b9bbbe;
+    margin-left: 200px;
+}
+
+.tableD{
+    height: 200px;
+}
+
+.tableD tr td label{
+    font-size: 18px;
+    font-family: "Times New Roman";
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #00AA88;
+}
+
+.tableD tr td span{
+    font-size: 16px;
+    font-family:"Arial Black";
+    text-align: center;
+
+}
+
+.divD2{
+    margin-top: 10px;
+}
+
+.nav-link{
+    font-size: 18px;
+}
+.brand{
+    font-size: 18px;
+}
+
+.para{
+    font-size: 16px;
+}
+
+.btnSupp{
+    margin-left:20px;
+}
+
+.trAction{
+    text-align: center;
+}
+
+.btnAction{
+    height: 30px;
+    font-size: 20px;
+    width: 100px;
+
+}

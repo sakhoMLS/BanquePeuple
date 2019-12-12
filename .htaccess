@@ -1,0 +1,20 @@
+RewriteEngine on
+RewriteRule ^.{0}$ connexion.php
+RewriteRule ^controllerUser$ controller/userController.php
+RewriteRule ^menuAccueil$ view/menu.php
+RewriteRule ^compte$ view/menu.php
+RewriteRule ^connexion$ connexion.php
+RewriteRule ^controllerCpt$ controller/compteController.php
+RewriteRule ^css$ assets/css/style.css
+RewriteRule ^css1$ assets/css/myStyle.css
+RewriteRule ^css2$ assets/bootstrap-3.3.7/bootstrap-3.3.7/dist/css/bootstrap.css
+RewriteRule ^css3$ assets/vendor/bootstrap/css/bootstrap.min.css
+RewriteRule ^css4$ assets/css/full-width-pics.css
+
+RewriteRule ^formu$ view/menu.php
+RewriteRule ^background$ assets/images/home_slider_1.jpg
+
+RewriteRule ^JS$ assets/vendor/jquery/jquery.min.js
+RewriteRule ^JS1$ assets/vendor/bootstrap/js/bootstrap.bundle.min.js
+RewriteRule ^deconnexion$ controller/userController.php?deconnexion=1
+RewriteRule ^FORM$ #formulaire
